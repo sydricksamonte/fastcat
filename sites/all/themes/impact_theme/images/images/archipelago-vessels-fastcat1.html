@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ARCHIPELAGO - PHOTO GALLERY</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/inner-css.css" rel="stylesheet" type="text/css" media="screen" />
+
+ <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style_common.css" />
+        <!--<link rel="stylesheet" type="text/css" href="css/style10.css" />-->
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        
+        
+         <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        
+        <!--GALLERY JQUERY-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	<script type="text/javascript">
+	 var $j = jQuery.noConflict();
+		$j(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+
+			$j("a#example1").fancybox();
+
+			$j("a#example2").fancybox({
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+
+			$j("a#example3").fancybox({
+				'transitionIn'	: 'none',
+				'transitionOut'	: 'none'	
+			});
+
+			$j("a#example4").fancybox({
+				'opacity'		: true,
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'none'
+			});
+
+			$j("a#example5").fancybox();
+
+			$j("a#example6").fancybox({
+				'titlePosition'		: 'outside',
+				'overlayColor'		: '#000',
+				'overlayOpacity'	: 0.9
+			});
+
+			$j("a#example7").fancybox({
+				'titlePosition'	: 'inside'
+			});
+
+			$j("a#example8").fancybox({
+				'titlePosition'	: 'over'
+			});
+
+			$j("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			/*
+			*   Examples - various
+			*/
+
+			$j("#various1").fancybox({
+				'titlePosition'		: 'inside',
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+
+			$j("#various2").fancybox();
+
+			$j("#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+
+			$j("#various4").fancybox({
+				'padding'			: 0,
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+		});
+	</script><!--GALLERY JQUERY END-->
+</head>
+
+<body>
+<div id="header-top"></div>
+<div id="header-flash-wrapper-inner">
+<!--<div id="header-logo"><a href="#"><img src="images/archipelago-logo.jpg" alt="Archipelago" /></a></div>--></div>
+
+<!--top nav start-->
+  <div id="blue-navi">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+				
+				<li><a href="#"  class="active">VESSELS</a>
+                 <ul class="sublevel" style="width:130px">
+                	<li class="w"><a href="archipelago-vessels-fastcat1.html">FASTCAT M1 </a></li>
+                  <!--  <li class="w"><a href="archipelago-vessels-fastcat2.html">FASTCAT M2 </a></li>-->
+					</ul>
+				</li><li><a href="archipelago-schedule.html">SCHEDULES</a></li>
+      
+<li><a href="archipelago-routes.html">ROUTES</a></li>
+    
+      <li><a href="archipelago-passenger-rate.html">RATES</a></li>
+    
+     <!--<li><img src="images/top-nav-sep.png" alt="Jam Liner Inc"></li>-->
+      <li><a href="#">OTHER&nbsp;SERVICES&nbsp;</a>
+      <ul class="sublevel">
+                	<li><a href="archipelago-advertising.html">ADVERTISING  </a></li>
+                    <li><a href="archipelago-cargo-consolidation.html">CARGO CONSOLIDATION </a></li>
+                    <li><a href="archipelago-charter.html">CHARTER </a></li>           
+</ul></li>
+      <li><a href="archipelago-job-opportunities.html">JOB&nbsp;OPPORTUNITIES</a></li>    
+      <li><a href="archipelago-faqs.html">FAQ'S</a> </li>
+    </ul>
+</div>
+  <!--top nav end-->
+  <div class="br"></div>
+  
+ <!--CONTENT START-->
+  <div id="content-wrapper">
+
+  <div id="con-top-full">
+  
+  <div id="column-table">
+
+   
+   <h2>SECTIONS OF THE VESSEL</h2>
+  <div class="col-ves-1"><img src="images/vessels/archipelago-vessel-part-cardeck.jpg" alt="" />
+  <div><p class="txt-vess"><strong>CARDECK </strong> - Can hold up to 30-34 cars, and 6-7 trucks / buses.</p></div></div>
+  
+  <div class="col-ves-2"><img src="images/vessels/archipelago-vessel-part-roro.jpg" alt=""  />
+  <div><p class="txt-vess" align="center"><strong>ROLL ON ROLL OFF RAMP & SAFETY LIFE RAFTS IN CASE OF EMERGENCY</strong></p></div></div>
+  
+  <div class="col-ves-3"><img src="images/vessels/archipelago-vessel-part-elevator.jpg" alt=""  />
+  <div><p class="txt-vess" align="center"><strong>ELEVATOR FOR PEOPLE WITH DISABILITIES</strong></p></div></div>
+  
+  
+   <div class="col-ves-1"><img src="images/vessels/archipelago-vessel-business.jpg" alt="" />
+  <div><p class="txt-vess"><strong>BUSINESS CLASS  </strong> - Fully air conditioned, with an LCD TV and can accommodate up to 63 passengers. All with individual life vests.</p></div></div>
+  
+  <div class="col-ves-2"><img src="images/vessels/archipelago-vessel-part-premium.jpg" alt=""  />
+  <div>
+    <p class="txt-vess"><strong>PREMIUM ECONOMY</strong> - Fully air conditioned, with 2 LCD TV's and can accommodate up to 107 passengers. All with individual life vests.</p></div></div>
+  
+  <div class="col-ves-3"><img src="images/vessels/archipelago-vessel-part-sundeck.jpg" alt=""  />
+  <div><p class="txt-vess"><strong>SUNDECK/ECONOMY</strong> - Open area, and can accommodate up to 105 passengers. All with individual life vests.<br/><br/></p></div></div>
+ 
+ 
+ <div class="col-ves-1"><img src="images/vessels/archipelago-vessel-part-cafeteria.jpg" alt=""  />
+  <div><p class="txt-vess"><strong>CAFETERIA</strong> - With a wide selection of food and beverages. </p></div></div>
+  
+  <div class="col-ves-2"><img src="images/vessels/archipelago-vessel-engine-room.jpg" alt=""  /><div><p class="txt-vess"><strong>ENGINE ROOM </strong> - Equipped with superior engines that are fully compliant with international maritime standards.
+</p></div></div>
+  
+  <div class="col-ves-3"><img src="images/vessels/archipelago-vessel-the-bridge.jpg" alt=""  />
+  <div><p class="txt-vess"><strong>THE BRIDGE  </strong> - With state-of-the-art navigation and control system.
+</p></div></div>
+  
+ 
+  </div>
+  
+  <!--VESSEL FEATURES START-->
+<h2>UNIQUE AND SAFETY FEATURES OF FASTCAT</h2>
+
+<div id="contenu"><div id="div-full">
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-sea-transport.png" align="left" alt=""  />
+<p class="txt-padding"><br />FastCat was designed by Sea Transport Solution of Australia, the leading designer of mid-speed catamaran vessels in the world and operates in more than 30 countries. FastCat was specifically designed to suit the weather and sea conditions in the Philippines.</p></div>
+
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-american.png" align="right" alt="" /><p class="txt-padding-right"><br />FastCat is certified and classed by the American Bureau of Shipping (ABS), indicating its compliance with the latest international safety rules and regulations, that is why FastCat is SAFER than other RORO vessels.</p></div>
+
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-twin-hulls.png" align="left" alt=""  />
+<p class="txt-padding"><br />A typical RORO being used in the Philippines has only one hull. FastCat, on the other hand, is a CATAMARAN with two hulls and 10 water tight compartments. FastCat's twin-hull design makes her more stable because the center of buoyancy and gravity is wider than a monohull.</p></div>
+
+
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-ballast-tank.png" align="right" alt="" /><p class="txt-padding-right"><br /><br />FastCat keeps the water out of the vessel, that’s why it doesn’t have a ballast tank unlike the other RORO vessels. This makes it safer, lighter and faster than the rest.</p></div>
+
+
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-vehicles-pas.png"align="left" alt=""  /><br /><br /><img src="images/vessels/archipelago-vessel-feat-vehicles-car.png"align="left" alt=""  />
+<p class="txt-padding">FastCat can accommodate 275 up to 320 passengers, including the disabled and the elderly, and has a capacity of approximately 300 lane meters for trucks/buses (6-7 units), cars (30-34 units), and other land vehicles.</p></div>
+
+<!--COPY-->
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-ave-yanmar-a.png" align="right" alt="" /><br /><br /><img src="images/vessels/archipelago-vessel-feat-ave-yanmar-b.png" align="right" alt="" /><p class="txt-padding-right">It runs at an average speed of 16.5 knots, therefore is faster than most RORO vessels in the Philippines.  It is due to the vessels design and because it is powered by four internationally-classed and ABS-certified Yanmar engines, while most RORO vessels only have one.</p></div>
+
+
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-ferry-envi.png"align="left" alt=""  />
+<p class="txt-padding"><br />FastCat is the first and only pro-environment ferry engine in the Philippines, having passed the TIER 2 emission standards in sulphur and carbon dioxide.
+
+In short, it performs better than most RORO engines and emits less pollution.
+<p></div>
+
+
+<!--copy2-->
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-four-engine.png" align="right" alt="" height="94" width="94" /><p class="txt-padding-right"><br />
+In case of an emergency, a single engine mono hull RORO vessel has to stop the voyage and may not be able to return to the port. On the other hand, FastCat has four engines and a twin hull, therefore it is better equipped to handle engine emergencies than most RORO vessels.FastCat is also the only ferry compliant to the International Maritime Organization’s safe return to port regulation.  </p></div>
+
+
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-3m.png" align="left" alt=""  /><br />
+<p class="txt-padding">FastCat has a clearance between the water and the hull of three meters. It is three times higher than most RORO vessels, which are categorized and designed to operate ONLY on inland or smooth water. Therefore if a one-meter wave hits the vessel, water will NOT get inside the car deck or the hull, mitigating the risk of a major maritime incident.</p></div>
+
+<!--copy3-->
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-our-point.png" align="right" alt="" height="94" width="94" /><p class="txt-padding-right"><br />
+FastCat is also compliant with international fire safety standards. 
+Its passenger accommodation area and engine room are insulated with the highest and internationally-certified A60 fire protection system.
+FastCat is also equipped with a COMPLETE fire alarm system including the latest FM 200 inside the engine rooms. This will ensure the safety of the crew in case of an emergency. 
+  </p></div>
+
+
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-e-leather.png" align="left" alt=""  /><br />
+<p class="txt-padding">For the passenger seats, FastCat uses  E-leather, a fire-retardant, durable and environment-friendly material that is imported from the United Kingdom.
+This material is unique because it takes a longer time to combust compared to regular leather or other upholstery materials.
+</p></div>
+
+
+<!--copy4-->
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-state-of-art.png" align="right" alt="" height="94" width="94" /><p class="txt-padding-right"><br />
+FastCat uses a state-of-the-art navigation and control system. It has two steering control systems and in case of failure, it can shift from automatic to manual steering inside the engine room and take the passengers safely to shore.
+  </p></div>
+
+
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-solar-wind.png" align="left" alt=""  /><br />
+<p class="txt-padding">The vessel has two auxiliary engines that provide electricity. But what makes FastCat superior is her bridge control system. It is primarily powered by solar panels and wind turbines which makes her <br/>pro-environment.
+All these state-of-the-art features simply mean that FastCat has a 100 percent redundancy on performance and safety, therefore minimizing the risk of maritime incidents. 
+</p></div>
+
+<!--copy5-->
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-cr.png" align="right" alt="" height="94" width="94" /><p class="txt-padding-right"><br /><br />
+Also, it comes with clean comfort rooms for both men and women as well as the disabled.
+  </p></div>
+
+
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-45-year.png" align="left" alt=""  /><br /><br />
+<p class="txt-padding">FastCat’s design incorporates international, environmental and safety standards and she is rated to function and perform for 45 years.
+</p></div>
+
+
+<div id="unique-div">
+<img src="images/vessels/archipelago-vessel-feat-up-to-date.png"align="right" alt="" height="94" width="94" /><p class="txt-padding-right"><br /><br />
+FastCat is one of the safest and state-of-the-art RORO vessel, but more importantly, its crew are competent and ready to be of service to the riding public. 
+
+They undergo regular trainings to keep abreast with the latest technology, information and international best practices to ensure the safety of its passengers in all possible scenarios and increase the level of competency and quality of service.
+
+  </p></div>
+
+</div></div>
+
+  </div><br />
+  <!--Con top full end-->
+    <div class="br1"></div>
+  
+  </div>
+  <!--CONTENT END-->
+  
+  <!--column footer-top-->
+<div id="column-top-bottom">
+ <div class="main"> 
+                <!-- TENTH EXAMPLE -->
+				<a href="archipelago-news.html" class="info" >
+                <div class="view view-tenth">
+                    <img src="images/c.jpg" style="cursor:pointer;"/>
+                   <!-- <div class="mask">
+                        <h2>NEWS AND UPDATES</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna liqua. Ut enim ad minim veniam.</p>
+                        Read More
+                    </div>-->
+                </div>
+				</a>
+				
+				<a href="archipelago-gallery.html" class="info" >
+                <div class="view view-tenth"> <img src="images/b.jpg" style="cursor:pointer;"/>
+                 <!-- <div class="mask">
+                    <h2>VIEW OUR GALLERY</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna liqua. Ut enim ad minim veniam.</p>
+                    Read More</div>-->
+                </div>
+				</a>
+				
+			 <a href="archipelago-contact.html" class="info">
+                <div class="view view-tenth">
+                    <img src="images/a.jpg"  style="cursor:pointer;" />
+                    <!--<div class="mask">
+                        <h2>CONTACT US</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna liqua. Ut enim ad minim veniam.</p>
+                     Read More
+					</div>
+					-->
+              </div>
+             </a>
+			 
+            </div>
+
+ 
+ <br />
+    <div class="br1"></div>
+ 
+ </div>
+ <!--column footer-top-end-->
+ 
+ <!--footer start-->
+ <div id="footer-container">
+   <div id="footer-full">
+     <div class="footer-left">
+     
+       Copyright © <script type="text/javascript">
+
+                var theDate=new Date()
+
+                document.write(theDate.getFullYear())
+
+                </script> - <a href="index.html">ARCHIPELAGO</a><br />
+                <a href="archipelago-sitemap.html">Sitemap</a> | <a href="archipelago-privacy-policy.html">Privacy Policy</a> | <a href="archipelago-copyright-notice.html">Copyright Notice</a> </div>
+     <div class="footer-right">
+     <div class="fot-r-l"></div>
+     <div class="social-net">
+     <ul id="social-top">
+				<li><a href="http://www.facebook.com/FastCatOfficial" class="facebook" title="facebook"></a></li>
+				<li><a href="https://twitter.com/" class="twitter" title="twitter"></a></a></li>
+				<!--<li><a href="#" class="mail" title="mail"></a></a></li>-->
+			
+		</ul>
+            
+            </div></div>
+   </div>
+ </div>
+ <!--footer end-->
+ 
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+ 
+
+ 
+ <script type="text/javascript" src="js/scroll/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="js/scroll/ui.core-1.7.2.js"></script>
+		<script type="text/javascript" src="js/scroll/ui.draggable-1.7.2.js"></script>
+		<script type="text/javascript" src="js/scroll/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src="js/scroll/plugin.scrollbar.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#contenu").scrollbar();
+			});
+		</script>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+Login Link:
+http://localhost/fastcat.com.ph/archipelago-admin
+
+Please change the current email-address of the following users, as well as username and password.
+
+Users:
+1. username:	fastcat_admin
+   Password:	fastcat
+2. username:	admin
+   Password:	adminadmin
+
+   
